@@ -140,6 +140,12 @@ tile.miranda_quartz_ore.name=石英礦
 tile.miranda_cobalt_ore.name=鈷礦
 tile.miranda_nickel_ore.name=鎳礦
 
+tile.triton_grunt.name=海衛一表面泥土
+tile.triton_subgrunt.name=海衛一地底泥土
+tile.triton_stone.name=海衛一石頭
+tile.triton_geyser.name=海衛一噴泉
+tile.triton_geyser_2.name=海衛一小型噴泉
+
 tile.proxima_b_surface.name=比鄰星B表面
 tile.proxima_b_subsurface.name=比鄰星B地底
 tile.proxima_b_stone.name=比鄰星B石頭
@@ -377,9 +383,10 @@ item.em_canister.name=乙烷-甲烷罐
 item.helium_canister.name=氦-3罐
 item.hh_canister.name=氦-氫罐
 
-item.violet_reeds.name=Violet Reeds
-item.water_grass.name=Water 草地
-item.yellow_fruits.name=黃色 Fruits
+item.violet_reeds.name=紫色甘蔗
+item.water_grass.name=水草地
+item.tree_juice.name=樹汁
+item.yellow_fruits.name=黃色水果
 |/////////////////////////////////////////|
 #||||||||||||||||||Fluids||||||||||||||||||
 |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|
@@ -483,7 +490,7 @@ gui.module.jump.desc=安裝活塞是一個好主意。 現在您的跳躍比平�
 gui.module.energy=高級電池
 gui.module.energy.desc=最大能量供應增加2倍。
 gui.module.protection=防護
-gui.module.protection.desc=套裝中的鈷鑲嵌提供了對傷害的強大保護。
+gui.module.protection.desc=在太空裝中鑲入鈷可以提供強大的保護力，減少受到的傷害。
 
 gui.module.sublight_engine=亞光速引擎
 gui.module.sublight_engine.desc=新一代的引擎。 讓我們離開當前的恆星系統。
@@ -563,7 +570,7 @@ book.button.back.name=Back
 
 book.category.general.name=General
 book.category.bodies.name=Celestial bodies
-book.category.blocks.name=磚s
+book.category.blocks.name=Blocks
 book.category.items.name=Items
 book.category.mechanics.name=Mechanics
 
@@ -577,11 +584,11 @@ book.page.actual_update.name=Actual Update
 #||||||||||||Book-Celestial Bodies||||||||||
 #|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|
 book.page.solarsystem.sol.name=Solar System
-book.page.star.sol=Main star: Sol - 黃色 dwarf 
+book.page.star.sol=Main star: Sol - yellow dwarf 
 book.page.solarsystem.asteroids=The asteroid belt is a massive cluster of asteroids orbiting the sun. Most asteroids contain a large amount of minerals.
-book.page.solarsystem.ceres=穀神星 is a dwarf planet in the Asteroid Belt. It contains copious amounts of meteoric iron and dolomite crystals.
+book.page.solarsystem.ceres=Ceres is a dwarf planet in the Asteroid Belt. It contains copious amounts of meteoric iron and dolomite crystals.
 book.page.solarsystem.jupiter=Jupiter - Gas giant with stone moons that are available to the reachable.
-book.page.solarsystem.callisto=木衛四 - the farthest moon of Jupiter.
+book.page.solarsystem.callisto=Callisto - the farthest moon of Jupiter.
 #|/////////////////////////////////////////|
 #|||||||||||||||Book-Mechanics||||||||||||||
 #|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|
