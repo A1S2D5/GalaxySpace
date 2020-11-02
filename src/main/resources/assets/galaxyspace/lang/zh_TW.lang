@@ -96,6 +96,7 @@ tile.io_lava_geyser.name=木衛一岩漿噴泉
 tile.io_sulfur_geyser.name=木衛一硫噴泉
 tile.io_top.name=木衛一地牢天花板
 tile.io_floor.name=木衛一地牢地板
+tile.io_dungeon_bricks.name=木衛一地牢磚
 
 tile.europa_grunt.name=木衛二表面冰
 tile.europa_stone.name=木衛二石頭
@@ -164,7 +165,7 @@ tile.barnarda_c_grass.name=巴納德C草地
 tile.barnarda_c_dirt.name=巴納德C泥土
 tile.barnarda_c_stone.name=巴納德C石頭
 tile.barnarda_c_sandstone.name=[WIP] 巴納德C砂岩
-tile.barnarda_c_dirt_1.name=[WIP] 巴納德C土
+tile.barnarda_c_dirt_1.name=[WIP] 巴納德C 土
 tile.barnarda_c_cobblestone.name=巴納德C鵝卵石
 tile.barnarda_c_stone_bricks.name=巴納德C石磚
 tile.barnarda_c_oak_planks.name=巴納德C木板
@@ -272,17 +273,20 @@ tile.coefficient.desc=C生成係數
 tile.coefficientcraft.desc=速度係數
 
 tile.ceres_bricks.name=穀神星地牢磚
-tile.io_bricks.name=木衛一地牢磚
+tile.io_bricks.name=[WIP] 木衛一地牢磚
 
 tile.treasure_t4.name=四階寶箱
 tile.treasure_t4.desc=四階寶箱會生成在榖神星地牢。可在擊敗最終BOSS後開啟。
+
+tile.treasure_t5.name=五階寶箱
+tile.treasure_t5.desc=五階寶箱會生成在木衛一地牢。可在擊敗最終BOSS後開啟。
 
 |/////////////////////////////////////////|
 #|||||||||||||||||Items||||||||||||||||||||
 |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|
 
 item.schematics.name=NASA工作臺圖紙
-item.hdp.name=重型版
+item.hdp.name=重型板
 item.dungeon_keys.name=地牢鑰匙
 item.geo_scanner.name=地質掃描儀
 
@@ -425,7 +429,7 @@ gui.planet_shield_stability_1.desc=如果安裝模組"Stabilization"
 gui.planet_shield_stability_2.desc=防護罩將會收集隕石碎片。
 
 gui.not_attached.desc=未安裝
-gui.attached.desc=已安裝:
+gui.attached.desc=已安裝ed:
 gui.enabled.desc=Enabled
 gui.charge=Charge:
 gui.message.now_noshield=你的護盾控制器毀損了!
@@ -489,32 +493,36 @@ gui.module.jump=跳躍
 gui.module.jump.desc=安裝活塞是一個好主意。 現在您的跳躍比平時高2倍！
 gui.module.energy=高級電池
 gui.module.energy.desc=最大能量供應增加2倍。
-gui.module.protection=防護
+gui.module.protection=保護
 gui.module.protection.desc=在太空裝中鑲入鈷可以提供強大的保護力，減少受到的傷害。
 
 gui.module.sublight_engine=亞光速引擎
 gui.module.sublight_engine.desc=新一代的引擎。 讓我們離開當前的恆星系統。
 
-gui.message.forrbiden_modules.name=Incompatible with:
-gui.module.active=Active module
-gui.module.passive=Passive module
-gui.module.empty_slot=Empty slot. Place item in slot.
+gui.message.forrbiden_modules.name=無法相容:
+gui.module.active=主動型模組
+gui.module.passive=被動型模組
+gui.module.empty_slot=槽位為空.在槽位放入物品.
 
 
 |/////////////////////////////////////////|
 #||||||||||||||Creative Tabs|||||||||||||||
 |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|
 
-item_group.galaxyspace_blocks=GalaxySpace: Blocks
-item_group.galaxyspace_items=GalaxySpace: Items
-item_group.galaxyspace_armor=GalaxySpace: Armor
-item_group.galaxyspace_rocket=GalaxySpace: Rockets
+item_group.galaxyspace_blocks=GalaxySpace: 方塊
+item_group.galaxyspace_items=GalaxySpace: 物品
+item_group.galaxyspace_armor=GalaxySpace: 護甲
+item_group.galaxyspace_rocket=GalaxySpace: 火箭
 
 |/////////////////////////////////////////|
 #||||||||||||||||Entities||||||||||||||||||
 |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|
-entity.evolved_boss_blaze.name=Evolved Boss Blaze
-entity.evolved_coldblaze.name=Evolved 冰 Blaze
+entity.evolved_boss_blaze.name=冷焰使者之王
+entity.evolved_coldblaze.name=冷焰使者
+entity.evolved_boss_ghast.name=進化幽靈之王
+entity.rocket_tier_4.name=四階火箭
+entity.rocket_tier_5.name=五階火箭
+entity.rocket_tier_6.name=六階火箭
 |/////////////////////////////////////////|
 #||||||||||||Celestial Bodies||||||||||||||
 |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|
@@ -545,6 +553,7 @@ moon.charon=冥衛一
 planet.kuiperbelt=古柏帶
 planet.haumea=妊神星
 
+#aCentauri System
 satellite.spacestation.venus=金星大氣層空間站
 solarsystem.acentauri=半人馬星系
 star.centauri_a=半人馬A
@@ -554,6 +563,7 @@ solarsystem.proxima=比鄰星系
 star.proxima=比鄰星
 planet.proxima_b=比鄰星B
 
+#Barnard's System
 solarsystem.barnards=巴納德星系
 star.barnarda_a=巴納德A
 planet.barnarda_b=巴納德B
@@ -563,6 +573,14 @@ planet.barnarda_e=巴納德E
 moon.barnarda_b1=行星環
 moon.barnarda_c1=巴納德C1
 moon.barnarda_c2=巴納德C2
+
+#天倉五 System
+solarsystem.tauceti=天倉五
+star.tauceti=天倉五A
+planet.tauceti_g=天倉五G
+planet.tauceti_h=天倉五H
+planet.tauceti_e=天倉五E
+planet.tauceti_f=天倉五F
 #|/////////////////////////////////////////|
 #|||||||||||||||||||Book||||||||||||||||||||
 #|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|
