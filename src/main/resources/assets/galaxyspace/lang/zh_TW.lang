@@ -165,7 +165,7 @@ tile.barnarda_c_grass.name=巴納德C草地
 tile.barnarda_c_dirt.name=巴納德C泥土
 tile.barnarda_c_stone.name=巴納德C石頭
 tile.barnarda_c_sandstone.name=[WIP] 巴納德C砂岩
-tile.barnarda_c_dirt_1.name=[WIP] 巴納德C 土
+tile.barnarda_c_dirt_1.name=[WIP] 巴納德C土
 tile.barnarda_c_cobblestone.name=巴納德C鵝卵石
 tile.barnarda_c_stone_bricks.name=巴納德C石磚
 tile.barnarda_c_oak_planks.name=巴納德C木板
@@ -429,9 +429,9 @@ gui.planet_shield_stability_1.desc=如果安裝模組"Stabilization"
 gui.planet_shield_stability_2.desc=防護罩將會收集隕石碎片。
 
 gui.not_attached.desc=未安裝
-gui.attached.desc=已安裝ed:
-gui.enabled.desc=Enabled
-gui.charge=Charge:
+gui.attached.desc=已安裝:
+gui.enabled.desc=可用
+gui.charge=充能:
 gui.message.now_noshield=你的護盾控制器毀損了!
 
 gui.module.desc=火箭模組
@@ -454,7 +454,7 @@ gui.message.invalid_teleport_conf=無效的傳送配置或沒有能量。
  
 gui.message.noradiation=您沒有恆星輻射！ 很好！
 gui.message.emergency_teleport=緊急傳送裝置成功啟動。座標:
-gui.message.can_find_in_dungeon=可再地牢裡發現。
+gui.message.can_find_in_dungeon=可在地牢裡發現。
 
 gui.message.need_advanced_lp.desc=只能放置在高級發射平台。
 gui.message.engine_type.name=引擎類型:
@@ -464,10 +464,10 @@ gui.tank.passive_oxygen_regen.desc2=如果玩家在合適的範圍內（氣泡�
 
 gui.gravity.radius.name=動作半徑：
 
-gs.success.name=Actual version:
-gs.update.available=New version available!
-gs.update.download=Download
-gs.update.changelog=Changelog
+gs.success.name=目前版本:
+gs.update.available=有新版本可用!
+gs.update.download=下載
+gs.update.changelog=更新日誌
 
 #|/////////////////////////////////////////|
 #|||||||||||||Space suit Modoles|||||||||||||
@@ -574,7 +574,7 @@ moon.barnarda_b1=行星環
 moon.barnarda_c1=巴納德C1
 moon.barnarda_c2=巴納德C2
 
-#天倉五 System
+#Tau Ceti System
 solarsystem.tauceti=天倉五
 star.tauceti=天倉五A
 planet.tauceti_g=天倉五G
